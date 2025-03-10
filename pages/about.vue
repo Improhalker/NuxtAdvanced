@@ -5,3 +5,11 @@
         </h1>
     </div>
 </template>
+
+<script setup>
+ useHead({
+    title: 'About'
+ })
+ 
+
+</script>
