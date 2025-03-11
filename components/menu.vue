@@ -11,13 +11,17 @@
                     <li>
                     <NuxtLink to="/blog/" class="link">Blog</NuxtLink>
                     </li>
+
+                    <li>
+                    <NuxtLink to="/projects/" class="link">Projects</NuxtLink>
+                    </li>
                 </ul>
             </nav>
 </template>
 
 <style scoper>
     .link {
-        @apply p-1 hover:bg-gray-100
+        @apply p-1 hover:bg-gray-500
     }
 
 </style>
