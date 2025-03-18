@@ -1,9 +1,7 @@
 <template>
-    <div>
-        <h1>
-            Sessão do about
-        </h1>
-    </div>
+    <article class="prose dark:prose-invert">
+        <ContentDoc path="/about"/>
+    </article>
 </template>
 
 <script setup>
