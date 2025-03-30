@@ -1,6 +1,5 @@
 <template>
-    <p class="mb-10">Take a look at my Github projects!</p>
-
+    <div class="not-prose">
     <section v-if="pending">Loading...</section>
     <section v-else-if="error">Someting went wrong... Try again!</section>
     <section v-else>Here we display the repos</section>
@@ -15,7 +14,7 @@
             </a>
         </li>
     </ul>
-
+</div>
 </template>
 
 <script setup>
