@@ -1,10 +1,9 @@
----
-description: 'List of all my recent blog posts'
-publishedAt: 2025-03-18 20:05
----
+# Hello!
 
-# Blog Posts
+## I'm Gabriel Estrela! 
 
-This is the list of my recente blog post
+Read more [about me] (/about), or see my last [projects](/projects)
 
-::blog-posts
+## Latest on my blog
+
+::latest-blog-posts{:limit="2"}
