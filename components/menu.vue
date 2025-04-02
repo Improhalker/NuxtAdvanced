@@ -1,17 +1,17 @@
 <template>
     <nav class="font-mono">
-        <ul class="flex space-x-4">
+        <ul class="flex flex-col md:flex-row md:space-x-4">
             <li>
-                <NuxtLink to="/" class="link dark:hover:bg-gray-800">Main</NuxtLink>
+                <NuxtLink to="/" class="link">Main</NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/about dark:hover:bg-gray-800" class="link">About</NuxtLink>
+                <NuxtLink to="/about" class="link">About</NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/projects/" class="link dark:hover:bg-gray-800" >Projects</NuxtLink>
+                <NuxtLink to="/projects/" class="link" >Projects</NuxtLink>
             </li>
             <li>
-                <NuxtLink to="/blog/" class="link dark:hover:bg-gray-800">Blog</NuxtLink>
+                <NuxtLink to="/blog/" class="link">Blog</NuxtLink>
             </li>
         </ul>
     </nav>
@@ -19,6 +19,6 @@
 
 <style scoper>
 .link {
-    @apply p-1 hover:bg-gray-500
+    @apply p-2 hover:bg-gray-500 dark:hover:bg-gray-800 text-2xl md:text-base
 }
 </style>
