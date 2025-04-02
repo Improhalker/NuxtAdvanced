@@ -1,5 +1,5 @@
 <template>
-    <article class="prose dark:prose-invert">
+    <article class="prose dark:prose-invert mx-w-none">
         <ContentDoc path="/about"/>
     </article>
 </template>
@@ -8,6 +8,5 @@
  useHead({
     title: 'About'
  })
- 
 
 </script>

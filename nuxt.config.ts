@@ -7,8 +7,25 @@ export default defineNuxtConfig({
     '@nuxtjs/color-mode',
     '@nuxt/content'
   ],
+  app: {
+    pageTransition: { name: 'page', mode: 'out-in' }
+  },
+  content: {
+    highlight: {
+      theme: {
+        default: 'min-light',
+        dark: 'min-dark'
+      }
+    }
+  },
+
   colorMode: {
     classSuffix: ''
+  },
+  nitro: {
+    prerender: {
+      routes: ['/sitemap.xml']
+    }
   },
   css: ['~/assets/css/main.css']
 })
