@@ -18,7 +18,7 @@
 </template>
 
 <script setup>
- const {error, pending, data} = await useFetch('https://api.github.com/users/piotr-jura-udemy/repos');
+ const {error, pending, data} = await useFetch('https://api.github.com/users/Improhalker/repos');
  const repos = computed(
     () => data.value.filter(repo => repo.description)
     .sort((a, b) => b.stargazers_count - a.stargazers_count)
