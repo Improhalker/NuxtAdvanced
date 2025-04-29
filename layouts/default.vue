@@ -1,5 +1,5 @@
 <template>
-    <div class="container mx-auto">
+    <div class="">
         <header class="flex justify-between items-start md:items-center mt-5">
             <div class="flex items-center md:space-x-12">
                 <div class="hidden md:block">
@@ -11,7 +11,7 @@
             <ColorModeSelector />
         </header>
 
-        <main class="p-2 mt-10">
+        <main>
 
        
         <slot/>
