@@ -1,5 +1,5 @@
 <template>
-    <nav class="font-mono">
+    <nav>
         <ul class="flex flex-col md:flex-row md:space-x-4">
             <li>
                 <NuxtLink to="/" class="link">Main</NuxtLink>

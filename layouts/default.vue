@@ -1,6 +1,6 @@
 <template>
     <div class="">
-        <header class="flex justify-between items-start md:items-center">
+        <header class="px-3 py-2 flex justify-between items-start md:items-center">
             <div class="flex items-center md:space-x-12">
                 <div class="hidden md:block">
                     <NuxtLink to="/" class="text-xl font-semibold p-2 hover:bg-gray-200  dark:hover:bg-gray-800">Gabriel
