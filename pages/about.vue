@@ -111,7 +111,7 @@
                 Understanding the importance of online visibility and data-driven decisions, I have experience with:
             </p>
             <ul
-                class="p-4 ate-slide-up delay-100 bg-gray-50 dark:bg-gray-700 rounded-md shadow-sm hover:shadow-lg transition duration-300 text-gray-600 dark:text-gray-300 text-sm">
+                class="p-4 animate-slide-up delay-100 bg-gray-50 dark:bg-gray-700 rounded-md shadow-sm hover:shadow-lg transition duration-300 text-gray-600 dark:text-gray-300 text-sm">
                 <li class="hover:text-purple-600 dark:hover:text-purple-400 transition duration-200"><strong>Search
                         Engine Optimization (SEO):</strong> On-page optimization, keyword research, technical SEO, and
                     link building strategies.</li>

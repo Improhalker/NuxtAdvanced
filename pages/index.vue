@@ -60,6 +60,12 @@
 </template>
 
 <script>
+useHead({
+    title: 'Home'
+});
+
+
+
 export default {
     data() {
         return {
