@@ -1,6 +1,6 @@
 <template>
     <article>
-        <section class="bg-gradient-to-br from-[#abf8ea] via-[#54306e] to-[#253342] dark:from-surface dark:to-bg-gray-700 p-8 text-center h-[90vh] flex flex-col justify-center items-center 
+        <section class="bg-gradient-to-br from-[#abf8ea] via-[#54306e] to-[#253342] dark:from-[#4a148c] dark:via-[#8d8df6] dark:to-[#1a237e] p-8 text-center h-[90vh] flex flex-col justify-center items-center 
          animate-gradient-slow bg-[length:200%_200%]">
             <h1 class="animate-slide-down text-4xl sm:text-5xl lg:text-6xl font-bold text-white dark:text-gray-300 mb-6">
                 I'm Gabriel Estrela
