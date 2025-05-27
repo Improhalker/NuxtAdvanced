@@ -1,8 +1,10 @@
 <template>
     <div class="flex space-x-2 items-center">
       <button @click="toggleMode" @mouseenter="showNextModelLabel = true" @mouseleave="showNextModelLabel = false"
-        class="hover:bg-gray-200 dark:hover:bg-gray-600 px-2 py-1 text-gray-500 text-4xl md:text-base">{{ nextModeIcon
-        }}</button>
+        class="hover:bg-gray-200 dark:hover:bg-gray-600 px-2 py-1 text-gray-500 text-4xl md:text-base">
+        <LucideSunMoon v-if="colorMode.preference === 'light'" />
+        <LucideMoon :color="colorMode.preference === 'light' ? 'black' : 'white'" v-else />
+      </button>
     </div>
   </template>
   
@@ -10,17 +12,10 @@
   const showNextModelLabel = ref(false)
   const colorMode = useColorMode()
   
-  const modes = [
-    'system', // 0
-    'light', // 1
-    'dark' // 2
+  const modes = [ 
+    'light', 
+    'dark' 
   ]
-  
-  const nextModeIcons = {
-    system: '🌓',
-    light: '🌕',
-    dark: '🌑'
-  }
   
   const nextMode = computed(() => {
     const currentModeIndex = modes.indexOf(colorMode.preference)
@@ -34,8 +29,6 @@
   
     return modes[nextModeIndex]
   })
-  
-  const nextModeIcon = computed(() => nextModeIcons[nextMode.value])
-  
+
   const toggleMode = () => colorMode.preference = nextMode.value
   </script>
