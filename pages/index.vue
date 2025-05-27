@@ -31,8 +31,8 @@
                 programming and technolgy knowledge!
             </p>
 
-            <div class="flex flex-wrap w-3/4 place-self-center justify-center mt-2 sm:mt-4 md:mt-8 gap-4">
-                <div class="animate-slide-up sm:text-start mt-4 md:mt-8 gap-8">
+            <div class="flex flex-col md:flex-row w-full md:w-3/4 place-self-center justify-center mt-2 sm:mt-4 md:mt-8 gap-4">
+                <div class="animate-slide-up w-full lg:w-1/2 sm:text-start mt-4 md:mt-8 gap-8">
                     <h2 class="text-2xl font-bold text-gray-800 dark:text-white">Let you know me!</h2>
 
                     <p class="text-lg text-gray-600 dark:text-gray-300 mt-2 max-w-2xl">
@@ -45,8 +45,8 @@
                         the expertise to start new projects from scratch as well.
                     </p>
                 </div>
-                <div class="animate-slide-up max-w-[500px] mt-2 sm:mt-4 md:mt-8 gap-8">
-                    <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-4 text-start">My Skills</h2>
+                <div class="animate-slide-up w-full lg:w-1/2 mt-2 sm:mt-4 md:mt-8 gap-8">
+                    <h2 class="text-2xl font-bold text-center md:text-start text-gray-800 dark:text-white mb-4 ">My Skills</h2>
                     <ul class="grid grid-cols-2 sm:grid-cols-3 gap-6 text-lg text-gray-600 dark:text-gray-300">
                         <li v-for="skill in skills" :key="skill"
                             class="bg-gray-100 dark:bg-gray-700 p-4 rounded shadow transition duration-300 transform hover:scale-105 hover:bg-accent hover:text-white dark:hover:bg-accentHover text-center">

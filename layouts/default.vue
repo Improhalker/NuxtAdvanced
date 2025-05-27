@@ -12,7 +12,7 @@
         </main>
 
         <footer>
-            <div class="w-full h-56 bg-emphasis flex items-center justify-center">
+            <div class="w-full h-72 md:h-56 bg-emphasis flex items-center justify-center">
                 <div class="p-8 w-3/4 h-5/6 flex flex-col md:flex-row justify-between items-center gap-6">
                     <div class="text-center md:text-left">
                         <h3 class="text-xl font-bold text-white">GABRIEL ESTRELA</h3>
@@ -24,14 +24,14 @@
                     <div class="flex flex-col items-center md:items-end">
                         <h3 class="text-xl place-self-center font-bold text-white mb-2">SOCIAL</h3>
                         <div class="flex gap-4">
-                            <a href="#" aria-label="LinkedIn">
+                            <a href="https://www.linkedin.com/in/gabriel-henrique-estrela-do-nascimento-070919182/" target="_blank" aria-label="LinkedIn">
                                 <img src="/images/linkedin-ico.png" alt="LinkedIn" class="h-6 w-6" />
                             </a>
-                            <a href="#" aria-label="GitHub">
+                            <a href="https://github.com/Improhalker" target="_blank" aria-label="GitHub">
                                 <img src="/images/github-ico.png" alt="GitHub" class="h-6 w-6" />
                             </a>
-                            <a href="#" aria-label="Mail">
-                              <img src="/images/icons8-mail-50.png" alt="Twitter" class="h-6 w-6" />
+                            <a href="mailto:gabriellawliet23@gmail.com" aria-label="Mail">
+                              <img src="/images/icons8-mail-50.png" alt="Mail" class="h-6 w-6" />
                             </a>
                         </div>
                     </div>
