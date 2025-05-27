@@ -1,7 +1,7 @@
 <template>
     <nav class="fixed top-0 left-0 w-full z-50 bg-white/70 dark:bg-black/70 backdrop-blur-md shadow-md">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <NuxtLink to="/" class="text-2xl font-bold text-dark:bg-white">Gabriel.dev</NuxtLink>
+            <NuxtLink to="/" class="text-2xl font-bold text-dark:bg-white cursor-pointer">Gabriel.dev</NuxtLink>
 
             <!-- Mobile toggle -->
             <button @click="toggleMenu"
@@ -23,16 +23,16 @@
             <!-- Desktop menu -->
             <ul class="hidden md:flex space-x-6 text-lg text-primaryText dark:text-white">
                 <li>
-                    <NuxtLink to="/" class="hover:text-accent transition">Main</NuxtLink>
+                    <NuxtLink to="/" class="hover:text-accent transition cursor-pointer">Main</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/about" class="hover:text-accent transition">About</NuxtLink>
+                    <NuxtLink to="/about" class="hover:text-accent transition cursor-pointer">About</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/projects" class="hover:text-accent transition">Projects</NuxtLink>
+                    <NuxtLink to="/projects" class="hover:text-accent transition cursor-pointer">Projects</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/blog" class="hover:text-accent transition">Blog</NuxtLink>
+                    <NuxtLink to="/blog" class="hover:text-accent transition cursor-pointer">Blog</NuxtLink>
                 </li>
                 <li>
                     <ColorModeSelector />
@@ -45,16 +45,16 @@
             <ul v-if="isMenuOpen"
                 class="fixed inset-0 bg-gray-300 dark:bg-gray-700 text-primaryText dark:text-white flex flex-col items-center justify-center space-y-6 text-2xl z-40 w-screen h-screen overflow-hidden">
                 <li>
-                    <NuxtLink to="/" @click="closeMenu" class="hover:text-accent transition">Main</NuxtLink>
+                    <NuxtLink to="/" @click="closeMenu" class="hover:text-accent transition cursor-pointer">Main</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/about" @click="closeMenu" class="hover:text-accent transition">About</NuxtLink>
+                    <NuxtLink to="/about" @click="closeMenu" class="hover:text-accent transition cursor-pointer">About</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/projects" @click="closeMenu" class="hover:text-accent transition">Projects</NuxtLink>
+                    <NuxtLink to="/projects" @click="closeMenu" class="hover:text-accent transition cursor-pointer">Projects</NuxtLink>
                 </li>
                 <li>
-                    <NuxtLink to="/blog" @click="closeMenu" class="hover:text-accent transition">Blog</NuxtLink>
+                    <NuxtLink to="/blog" @click="closeMenu" class="hover:text-accent transition cursor-pointer">Blog</NuxtLink>
                 </li>
                 <li>
                     <ColorModeSelector />

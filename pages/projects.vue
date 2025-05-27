@@ -2,13 +2,13 @@
     <article>
         <section class="bg-gradient-to-br from-[#abf8ea] via-[#54306e] to-[#253342] dark:from-[#4a148c] dark:via-[#8d8df6] dark:to-[#1a237e] p-8 text-center h-[90vh] flex flex-col justify-center items-center 
          animate-gradient-slow bg-[length:200%_200%]">
-            <h1 class="animate-slide-down text-4xl sm:text-5xl lg:text-6xl font-bold text-white dark:text-gray-300 mb-6">
+            <h1 class="animate-slide-down text-4xl sm:text-5xl lg:text-6xl font-bold text-white dark:text-gray-100 mb-6">
                 My Projects
             </h1>
-            <h2 class="animate-slide-left text-3xl sm:text-4xl lg:text-5xl font-bold text-surface dark:text-purple-600 mb-6">
+            <h2 class="animate-slide-left text-3xl sm:text-4xl lg:text-5xl font-bold text-gray-100 dark:text-gray-100 mb-6">
                 Explore my work, <span class="text-yellow-400 dark:text-accentHover">Discover my passion</span>
             </h2>
-            <p class="animate-slide-right text-lg text-white dark:text-gray-300 font-semibold mb-8">
+            <p class="animate-slide-right text-lg text-white dark:text-gray-100 font-semibold mb-8">
                 A showcase of my recent projects and contributions.
             </p>
         </section>

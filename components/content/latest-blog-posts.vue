@@ -5,18 +5,15 @@
         Latest Posts
       </h2>
       <div class="grid sm:grid-cols-2 lg:grid-cols-3 gap-6">
-        <div
+        <NuxtLink
           v-for="post in posts"
           :key="post.id"
-          class="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 hover:bg-yellow-400 dark:hover:bg-purple-600 transition duration-300 shadow group"
+          :to="post._path"
+          class="bg-gray-100 dark:bg-gray-800 rounded-lg p-6 hover:bg-yellow-400 dark:hover:bg-purple-600 transition duration-300 shadow group flex items-center text-xl font-semibold text-gray-800 dark:text-white group-hover:text-white"
         >
-          <NuxtLink
-            :to="post._path"
-            class="text-xl font-semibold text-gray-800 dark:text-white group-hover:text-white"
-          >
-            {{ post.title }}
-          </NuxtLink>
-        </div>
+          {{ post.title }} | in
+          {{ post.year }}
+        </NuxtLink>
       </div>
     </section>
   </BlogPosts>

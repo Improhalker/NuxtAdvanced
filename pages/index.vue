@@ -1,25 +1,28 @@
 <template>
     <article>
-        <section class="bg-gradient-to-br from-[#abf8ea] via-[#54306e] to-[#253342] dark:from-[#4a148c] dark:via-[#8d8df6] dark:to-[#1a237e] p-8 text-center h-[90vh] flex flex-col justify-center items-center 
+        <section class="bg-gradient-to-br from-[#4e54c8] via-[#8f94fb] to-[#4e54c8]
+dark:from-[#2c3e50] dark:via-[#4ca1af] dark:to-[#2c3e50]
+
+         p-8 text-center h-[90vh] flex flex-col justify-center items-center 
          animate-gradient-slow bg-[length:200%_200%]">
-            <h1 class="animate-slide-down text-4xl sm:text-5xl lg:text-6xl font-bold text-white dark:text-gray-300 mb-6">
-                I'm Gabriel Estrela
+            <h1 class="animate-bounce text-4xl sm:text-5xl lg:text-6xl font-bold text-white mb-6">
+                I'm Gabriel Estrela!
             </h1>
-            <h2 class="animate-slide-left text-3xl sm:text-4xl lg:text-5xl font-bold text-surface dark:text-purple-600 mb-6">
+            <h2 class="animate-slide-left text-3xl sm:text-4xl lg:text-5xl font-bold text-white dark:text-[#c0c3ff] mb-6">
                 Building the web, <span class="text-yellow-400 dark:text-accentHover">Securing the future</span>
             </h2>
             <p class="animate-slide-right text-lg text-white dark:text-gray-300 font-semibold mb-8">
                 Passionate about creating robust, efficient, and secure web applications.
             </p>
             <div class="flex gap-4">
-                <button
+                <NuxtLink to="blog"
                     class="animate-fade-in dark:bg-purple-600 dark:hover:bg-purple-700 dark:text-white bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-8 rounded text-xl transition duration-300">
                     Blog
-                </button>
-                <button
+                </NuxtLink>
+                <NuxtLink to="projects"
                     class="animate-fade-in dark:bg-purple-600 dark:hover:bg-purple-700 dark:text-white bg-yellow-400 hover:bg-yellow-500 text-gray-900 font-bold py-4 px-8 rounded text-xl transition duration-300">
                     Projects
-                </button>
+                </NuxtLink>
             </div>
         </section>
         <section class="animate-fade-in bg-white dark:bg-gray-800 p-8 mt-8 text-center rounded-lg shadow-lg">
