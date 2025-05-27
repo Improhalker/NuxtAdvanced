@@ -1,7 +1,7 @@
 <template>
     <nav class="fixed top-0 left-0 w-full z-50 bg-white/70 dark:bg-black/70 backdrop-blur-md shadow-md">
         <div class="max-w-6xl mx-auto px-4 py-4 flex justify-between items-center">
-            <NuxtLink to="/" class="text-2xl font-bold text-accent">Gabriel.dev</NuxtLink>
+            <NuxtLink to="/" class="text-2xl font-bold text-primary">Gabriel.dev</NuxtLink>
 
             <!-- Mobile toggle -->
             <button @click="toggleMenu"
@@ -34,6 +34,9 @@
                 <li>
                     <NuxtLink to="/blog" class="hover:text-accent transition">Blog</NuxtLink>
                 </li>
+                <li>
+                    <ColorModeSelector />
+                </li>
             </ul>
         </div>
 
@@ -52,6 +55,9 @@
                 </li>
                 <li>
                     <NuxtLink to="/blog" @click="closeMenu" class="hover:text-accent transition">Blog</NuxtLink>
+                </li>
+                <li>
+                    <ColorModeSelector />
                 </li>
             </ul>
         </transition>

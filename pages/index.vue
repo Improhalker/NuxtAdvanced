@@ -45,7 +45,7 @@
                         the expertise to start new projects from scratch as well.
                     </p>
                 </div>
-                <div class="animate-slide-up w-[500px] mt-2 sm:mt-4 md:mt-8 gap-8">
+                <div class="animate-slide-up max-w-[500px] mt-2 sm:mt-4 md:mt-8 gap-8">
                     <h2 class="text-2xl font-bold text-gray-800 dark:text-white mb-4 text-start">My Skills</h2>
                     <ul class="grid grid-cols-2 sm:grid-cols-3 gap-6 text-lg text-gray-600 dark:text-gray-300">
                         <li v-for="skill in skills" :key="skill"

@@ -4,7 +4,7 @@
             <div class="flex items-center md:space-x-12">
                 <Menu />
             </div>
-            <ColorModeSelector />
+           
         </header>
 
         <main>
