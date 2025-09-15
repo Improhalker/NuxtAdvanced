@@ -8,7 +8,7 @@ publishedAt: 2025-05-09 17:30
 toc: true
 ---
 
-# O que Nuxt 3 me ensinou sobre componentização
+# Reflection about componentization in Nuxt 3
 
 Sinceramente, me vejo no dever de compartilhar o quanto o **Nuxt 3**, nesses últimos meses, me ensinou na prática que **componentização não é sobre reaproveitar código**, mas sobre **clareza, manutenção e escala**.
 

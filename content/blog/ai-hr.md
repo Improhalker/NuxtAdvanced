@@ -7,7 +7,7 @@ head:
 publishedAt: 2025-05-25 20:05
 toc: true
 ---
-# Meu POV sobre IA na RH
+# My POV about ai in hr.
 
 ## English summary.
 
